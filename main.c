@@ -1,21 +1,14 @@
-//BasicHelloWorld
+//BasicHelloNerd
 
 #include <stdio.h> //C file input/output functions are defined in this library
 
 int main()
 {
-	/*DECLARATIONS*/
-
-	char exit = 'e'; //declares a character as my exit variable
-
-	/*OUTPUT*/
-	//				\n is enter			\t is tab
-
-	printf("\n\n\n\t\t\t\tHELLO WORLD!");
+	printf("Hello Nerd");
 	
-	/*EXIT ROUTINE*/
-	printf("\n\n\nPush ENTER to exit");
-	scanf("%c", &exit);
-
-	return 0;
+	printf("\nPush ENTER to exit"); //Exit statement. \n is a new line
+	
+	getchar(); //Prevents program from closing right after program runs. Waits for user input.
+	
+	return 0; //Function main is type int so it should return an integer value
 }
