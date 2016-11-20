@@ -1,2 +1,2 @@
-# BasicHelloWorldC
-Basic Hello World program written in C language.
+# BasicHelloNerdC
+Basic Hello Nerd program written in C language.
